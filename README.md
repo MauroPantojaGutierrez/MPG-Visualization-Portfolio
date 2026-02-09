@@ -3,7 +3,7 @@ Compendium of projects focused on the area of information visualization
 
 ## Observable notebooks:
 
-### Programming Exercise 01: Explanatory Vis
+### Explanatory Vis
 Single-chart visualization to effectively communicates some idea about the data
 #### Rationale: 
 I decided to give my visualization a funny approach and answer a simple question “Will an international student most likely need vitamin D supplements while studying in Norway?” Though this vitamin can be obtained through diet, the most natural way to obtain it is  from skin exposure to UVB radiation, in other words: exposure to sunlight. Every person is different, has different dietary habits, come from a wide range of places and reacts different to the environment where they find themselves in, however, I find logical to suppouse that people from sunnier countries could experience a more notorious lack of vitamin D while being in a country like Norway. That said, my project proposes a comparison between the average sunlight hours of eight countries (I’m taking mine and my flatmates  countries as my study subjects) against Norway’s to “determine” which one of us will feel the lack vitamin D first (probably).
@@ -20,7 +20,7 @@ Regarding the things that my visualization may leave out, I think it is worth me
 
 
 
-### Programming Exercise 02: Deceptive Vis
+### Deceptive Vis
 Non-interactive visualizations for good and evil
 #### Rationale: 
 For this programming exercise I worked with two different questions: 
