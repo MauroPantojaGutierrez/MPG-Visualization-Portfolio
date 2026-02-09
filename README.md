@@ -17,3 +17,22 @@ Thinking about task and perception, I would say that the principal possible anal
 Regarding the things that my visualization may leave out, I think it is worth mentioning again that my decision to calculate a monthly average per country may hide peculiarities in a specific city, which would not accurately represent the difference between the data from Norway and the data from people coming from that place.
 
 #### Link: https://observablehq.com/d/ac71ea597bd3cd58
+
+
+
+### Programming Exercise 02: Deceptive Vis
+Non-interactive visualizations for good and evil
+#### Rationale: 
+For this programming exercise I worked with two different questions: 
+
+- **Honest Visualization**: Do people prefer movies that are suitable for all audiences?
+
+- **Deceptive Visualization**: Does the number of votes affect the rating of a movie?
+
+To answer my first question I chose a simple approach filtering the movies with some certificates considered appropriate for any audience and added the certificate “R” to the mix. The process consisted of grouping the movies by decade and obtaining the average rating depending on the certificate. To visualize the data in the most honest way I decided to use a cell mark, which allowed me to put on display all the information with labels in the axis and values in the cells, while this design also feels easy to read and often seen in movie/tv-shows ratings context. Aside from positions, I also added a color channel to distinguish better between cells with lower and higher values in hopes to help the viewer to quickly identify any increase or decrease in the ratings throughout the decades . As the objective was to compare the R certificate with the All-Audience-Friendly certificates, I added another mark: a line to draw attention to this specific cells.
+
+To answer my second question I thought that if it is sometimes possible to do more with less, then I could probably show less with less and give very few and confuse information to the viewer (if that makes sense). I decided to use a bar chart to lure the viewer into a false sense of security. First, I grouped the data by rating value and calculated the average number of votes for each rating, I put the rating values in the X axis and rearranged the order to mess with the positions. I also messed with the Y axis by reducing the number of ticks to 5 to make really difficult to say around what value each bar is located, then I changed the notation used to display the value of each tick on the Y axis so that instead of showing an exact amount, it shows a multiplication and the letter M (for millions). To difficult more the interpretation of the bars, I used an identity color channel instead of a magnitude one and reduced the opacity to make them a little harder to tell apart. To add the final touch, I moderately reduced the width of the figure and drastically increased its height, resulting in a display that was not very pleasing to the eye.
+
+Relating to the readings on color and interaction, for the honest visualization I already used a color channel suitable for that kind of data, but I think it would be interesting to show multiple views maybe to display the information for each decade separately allowing to analyze them in different combinations. As for the deceptive visualization, I implemented the hue/saturation combination to be a nightmare for the eyes, and thinking of interaction, a more dynamic way to change the order of the X axis could be a good strategy to confuse the viewer.
+
+#### Link: https://observablehq.com/d/cf88b25fc21d44af
